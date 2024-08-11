@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import { askName } from '../src/cli.js';
+// eslint-disable-next-line import/extensions
+import askName from '../src/cli.js';
 
 console.log('Welcome to the Brain Games!');
 
